@@ -1,0 +1,117 @@
+*{
+    margin: 0px ;
+    padding: 0px;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+.contain{
+    width: 100%;
+    min-height: 100vh;
+    background: #292929;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contain h1{
+    color: #fff;
+    
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.sing-up{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 60%;
+    max-height: 800px;
+    background: #fff;
+}
+.left-box{
+    padding: 50px;
+    background: #6b00d5;
+    flex-basis: 50%;
+    flex-grow: 1;
+}
+.right-box{
+    padding: 50px;
+    flex-basis: 50%;
+    flex-grow: 1;
+}
+.input-box{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+    border: 1px solid #fff;
+    outline: none;
+    color: #fff;
+    font-size: 10px;
+    background: transparent;
+}
+input[type=checkbox]{
+    margin-top: 30px;
+}
+
+
+::placeholder{
+    color: #fff;
+}
+.left-box label{
+    font-size: 15px;
+    
+}
+.left-box label a{
+    color: black;
+}
+.left-box button{
+    width: 100%;
+    background: #fff;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background .5ss ease-in;
+}
+.left-box button:hover{
+    font-weight: 500;
+    background: #000;
+    color: #fff;
+}
+.right-box a{
+    width: 100%;
+    display: block;
+    
+    padding: 15px 30px;
+    margin: 20px 0;
+    color: #fff;
+    min-width: 250px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.right-box a i{
+    font-size: 18px;
+    margin-right: 10px;
+}
+.fb{
+    background: #1778f2;
+}
+
+.tw{
+    background: #1da1f2;
+}
+.gg{
+    background: #ea4335;
+}
+.login{
+   margin-top: 30px; 
+   color: #fff;
+   font-size: 15px;
+}
+.login a{
+    text-decoration: none;
+    color: #ea4335;
+    font-weight: 500;
+}
